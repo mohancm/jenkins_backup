@@ -1,0 +1,54 @@
+# Git untracked files to ignore.
+
+# Cache.
+.cache/
+
+# Fingerprint records.
+fingerprints/
+
+# Working directories.
+workspace/
+
+# Secret files.
+secrets/
+secret.*
+*.enc
+*.key
+users/
+id_rsa
+
+# Plugins.
+plugins/
+
+# State files.
+*.state
+
+# Job state files.
+builds/
+lastStable
+lastSuccessful
+nextBuildNumber
+
+# Updates.
+updates/
+
+# Hidden files.
+.*
+# Except git config files.
+!.git*
+!.ssh/
+
+# User content.
+userContent/
+
+# Log files.
+logs/
+*.log
+
+# Miscellaneous litter
+*.tmp
+*.old
+*.bak
+*.jar
+*.json
+*.lastExecVersion
